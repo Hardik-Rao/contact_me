@@ -1,0 +1,125 @@
+
+.cld1{
+    margin-left: 800px;
+}
+.cld2{
+    margin-top: 50px;
+    margin-left: 50px;
+}
+body{
+   
+    background-color: #00BFFF;
+    font-family: "Merriweather", serif;
+}
+.container{
+    background-color:#00BFFF ;
+   
+  width: 100%;
+   display:block;
+   margin-top: 0;
+   border-bottom:10px solid white
+}
+.name{
+    display:flex;
+    justify-content: center;
+    font-family:  "Sacramento", cursive;
+}
+h1{
+    text-align: center;
+    color: aliceblue;
+    font-size: 3.5rem;
+    font-family:  "Sacramento", cursive;
+    color:#00BFFF;
+}
+#main{
+    text-align: center;
+    color: aliceblue;
+    font-size: 2rem;
+    font-family:  "Sacramento", cursive;
+    color:#00BFFF;
+}
+
+.profile{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: aliceblue;
+   
+   
+}
+.white{
+background-color: white;
+height:200px;
+}
+.profilepic{
+   
+    margin-top: 50px;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    
+}
+h2{
+    font-weight: normal;
+  font-family:   "Montserrat", sans-serif;
+  text-align: center;
+    padding-bottom: 0;
+}
+#main2{ 
+    padding-top: 0;  
+   width: 30%;
+text-align:center;    
+}
+
+.parents{
+   
+    display:grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: minmax(270px ,280px)  minmax(150px,160px);
+    row-gap:2.5em;
+    text-align:left;
+    margin-top: 100px auto 0 auto;
+   
+}
+
+.skills{
+    width:100%;
+    display: flex;
+    justify-content: center;
+    border:5px solid white;
+}
+hr{
+    border: solid #eaf6f6 6px;
+    width: 30px;
+    border-bottom: none;
+}
+
+#h2{
+    font-weight:bold;
+    border-top: #eaf6f6;
+}
+h3{
+    color:#00008B;
+}
+.innerdiv{
+    width:50%;
+    text-align: center;
+}
+.contact{
+    display:flex;
+    justify-content: center;
+  margin-bottom: 30px;
+}
+#lovett{
+    font-weight: 500;
+    font-size: 1.5rem;
+}
+.discription{
+   
+    margin-top: 5px;
+    margin-bottom: 30px;
+}
+.gap{
+    height: 60px;
+    background-color: #eaf6f6;
+}
