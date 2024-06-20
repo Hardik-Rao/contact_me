@@ -123,3 +123,8 @@ h3{
     height: 60px;
     background-color: #eaf6f6;
 }
+@media(min-width:319px) and (max-width:480px){
+    .cld1{
+       margin-left: 400px; 
+    }
+}
